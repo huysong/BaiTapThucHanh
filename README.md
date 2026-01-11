@@ -1,17 +1,14 @@
 # BaiTapThucHanh
-# Can't Unsee – so sánh giao diện
 
 Bài tập này tập trung vào việc rèn luyện khả năng **so sánh hình ảnh và phát hiện lỗi giao diện (UI bugs)** thông qua nền tảng **Can't Unsee**. Can't Unsee là một công cụ giúp cải thiện kỹ năng kiểm thử giao diện bằng cách yêu cầu người dùng tìm ra sự khác biệt tinh tế giữa hai phiên bản thiết kế.
 
-## Cách thực hiện
+Các bước thực hiện bài tập
 1. Truy cập website: **Can't Unsee**
-2. Thực hiện các câu hỏi theo thứ tự **từ dễ đến khó**
+2. Thực hiện các câu hỏi theo thứ tự từ dễ đến khó
 3. Quan sát và so sánh chi tiết giữa các cặp hình ảnh giao diện
 4. Chọn đáp án thể hiện đúng sự khác biệt hoặc lỗi thiết kế
 
-## Kết quả
-- **Điểm số đạt được:** `7030`
-- Hoàn thành đầy đủ các mức độ từ cơ bản đến nâng cao
+Sau khi hoàn thành các câu hỏi từ dễ đến khó, tôi đã đạt được điểm số 7030
 
 ## Kiến thức và kỹ năng thu được
 Thông qua bài tập, tôi đã học và rèn luyện được:
