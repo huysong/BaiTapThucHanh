@@ -23,7 +23,4 @@ Thông qua bài tập, tôi đã học và rèn luyện được:
 - Tư duy kiểm thử giao diện theo góc nhìn của người dùng cuối
 - Nâng cao sự cẩn thận và tập trung khi review thiết kế
 
-## Kết luận
-Can't Unsee là một công cụ hữu ích để luyện tập kỹ năng **UI Testing** và **UI Review**.
-
 <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/52e70e51-b878-44f2-9f30-13dc5a886b47" />
