@@ -1,4 +1,4 @@
-# BaiTapThucHanh
+# BaiTapThucHanh-Tống Khánh Huy-BIT230469
 
 Bài tập này tập trung vào việc rèn luyện khả năng **so sánh hình ảnh và phát hiện lỗi giao diện (UI bugs)** thông qua nền tảng **Can't Unsee**. Can't Unsee là một công cụ giúp cải thiện kỹ năng kiểm thử giao diện bằng cách yêu cầu người dùng tìm ra sự khác biệt tinh tế giữa hai phiên bản thiết kế.
 
