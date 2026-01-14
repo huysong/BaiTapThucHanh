@@ -24,3 +24,16 @@ Thông qua bài tập, tôi đã học và rèn luyện được:
 - Nâng cao sự cẩn thận và tập trung khi review thiết kế
 
 <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/52e70e51-b878-44f2-9f30-13dc5a886b47" />
+
+# JUnit
+
+Trong bài tập này, tôi đã tạo chương trình StudentAnalyzer.java nhằm phân tích điểm số của học sinh và StudentAnalyzerTest.java cho việc kiểm thử thành phần (unit test). Chương trình sử dụng JUnit phiên bản 5.9.2.
+
+Các bước thực hiện:
+
+Bước 1: Tạo dự án Maven
+Bước 2: Trong demo/src/main/java/com/example, tạo file StudentAnalyzer.java và thêm 2 phương thức **countExcellentStudents()** và **calculateValidAverage()**
+Bước 3: trong demo/src/test/java, tạo file StudentAnalyzerTest.java và 2 phương thức để kiểm thử cho **countExcellentStudents()** và **calculateValidAverage()**
+Bước 4: chạy mvn test trong terminal
+Kết quả:
+<img width="883" height="333" alt="image" src="https://github.com/user-attachments/assets/094328f7-34d8-423e-b21d-9f2f50cdd6b8" />
