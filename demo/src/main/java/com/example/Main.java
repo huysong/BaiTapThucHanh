@@ -10,5 +10,8 @@ public class Main {
         );
 
         System.out.println("So hoc sinh gioi: " + result);
+
+        int result2 = (int) analyzer.calculateValidAverage(Arrays.asList(8.0, 7.0, 9.0));
+        System.out.println("Diem trung binh hop le: " + result2);
     }
 }
