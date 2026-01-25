@@ -20,5 +20,4 @@ describe('Login Test', () => {
     cy.get('.error-message-container')
       .should('contain', 'Username and password do not match');
   });
-
 });
