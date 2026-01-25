@@ -68,7 +68,8 @@ npm install cypress --save-dev
 npx cypress open
 ```
 File kiểm thử: login-spec.cy.js cho file đăng nhập, cart-spec.cy.js cho file giỏ hàng
-Ảnh sau khi test đăng nhập
-<img width="1919" height="907" alt="Screenshot 2026-01-25 194908" src="https://github.com/user-attachments/assets/084cf429-37f8-44e5-aef9-5e0a23734338" />
-Sau khi test giỏ hàng
+- Ảnh sau khi test đăng nhập
+<img width="1919" height="912" alt="Screenshot 2026-01-25 194826" src="https://github.com/user-attachments/assets/af325d06-7b76-4525-9240-626952773dcd" />
 
+- Sau khi test giỏ hàng
+<img width="1919" height="907" alt="Screenshot 2026-01-25 194908" src="https://github.com/user-attachments/assets/084cf429-37f8-44e5-aef9-5e0a23734338" />
