@@ -1,5 +1,6 @@
 # BaiTapThucHanh-Tống Khánh Huy-BIT230469
 
+# Can't Unsee
 Bài tập này tập trung vào việc rèn luyện khả năng **so sánh hình ảnh và phát hiện lỗi giao diện (UI bugs)** thông qua nền tảng **Can't Unsee**. Can't Unsee là một công cụ giúp cải thiện kỹ năng kiểm thử giao diện bằng cách yêu cầu người dùng tìm ra sự khác biệt tinh tế giữa hai phiên bản thiết kế.
 
 Các bước thực hiện bài tập
@@ -37,3 +38,38 @@ Bước 3: trong demo/src/test/java, tạo file StudentAnalyzerTest.java và 2 p
 Bước 4: chạy mvn test trong terminal
 Kết quả:
 <img width="883" height="333" alt="image" src="https://github.com/user-attachments/assets/094328f7-34d8-423e-b21d-9f2f50cdd6b8" />
+
+# Cypress
+Dự án này được thực hiện trong khuôn khổ học phần **Kiểm thử phần mềm**, nhằm mục tiêu làm quen và thực hành kiểm thử tự động End-to-End (E2E) bằng công cụ **Cypress**.
+
+Trang web được sử dụng để kiểm thử là:
+- https://www.saucedemo.com  
+Đây là một website mẫu mô phỏng cửa hàng trực tuyến, phục vụ cho việc học và thực hành kiểm thử tự động.
+
+Mục tiêu:
+- Hiểu quy trình và xây dựng kịch bản kiểm thử đầu cuối (E2E)
+- Cài đặt và cấu hình Cypress trong dự án Node.js
+- Viết và chạy các test case kiểm thử tự động
+- Kiểm thử trang đăng nhập và trang giỏ hàng
+
+Khởi chạy dự án:
+- Khởi tạo project Node.js
+```bash
+mkdir cypress
+cd cypress
+npm init -y
+```
+- Cài đặt Cypress:
+ ```bash
+npm install cypress --save-dev
+```
+- Mở Cypress:
+```bash
+npx cypress open
+```
+File kiểm thử: login-spec.cy.js cho file đăng nhập, cart-spec.cy.js cho file giỏ hàng
+- Ảnh sau khi test đăng nhập
+<img width="1919" height="912" alt="Screenshot 2026-01-25 194826" src="https://github.com/user-attachments/assets/af325d06-7b76-4525-9240-626952773dcd" />
+
+- Sau khi test giỏ hàng
+<img width="1919" height="907" alt="Screenshot 2026-01-25 194908" src="https://github.com/user-attachments/assets/084cf429-37f8-44e5-aef9-5e0a23734338" />
