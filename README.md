@@ -73,3 +73,61 @@ File kiểm thử: login-spec.cy.js cho file đăng nhập, cart-spec.cy.js cho 
 
 - Sau khi test giỏ hàng
 <img width="1919" height="907" alt="Screenshot 2026-01-25 194908" src="https://github.com/user-attachments/assets/084cf429-37f8-44e5-aef9-5e0a23734338" />
+
+# JMeter Performance Testing
+
+## 1. Giới thiệu
+
+Bài thực hành kiểm thử hiệu năng sử dụng Apache JMeter.
+
+Website được kiểm thử: https://www.wikipedia.org
+
+---
+
+## 2. Môi trường kiểm thử
+
+- Công cụ: Apache JMeter
+- Phương thức: HTTP GET
+- Thời gian thực hiện: 2026
+
+---
+
+## 3. Thread Group 1 – Kịch bản cơ bản
+
+### Cấu hình:
+
+- Number of Users (Threads): 10
+- Ramp-up Period: 5 giây
+- Loop Count: 5
+- Method: GET
+- URL: https://www.wikipedia.org/
+
+---
+
+## 4. Kết quả kiểm thử
+
+(Điền số liệu của bạn vào đây)
+
+Ví dụ:
+
+- Total Samples: 50
+- Average Response Time: 320 ms
+- Min: 200 ms
+- Max: 580 ms
+- Throughput: 18 requests/second
+- Error Rate: 0%
+
+---
+
+## 5. Nhận xét
+
+Với tải nhẹ (10 người dùng), website phản hồi nhanh và không phát sinh lỗi.  
+Thời gian phản hồi trung bình dưới 500ms cho thấy hệ thống hoạt động ổn định.
+
+---
+
+## 6. File đính kèm
+
+- wiki_basic_test.jmx
+- thread_group_1_results.csv
+- screenshot_thread_group_1.png
